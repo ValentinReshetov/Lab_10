@@ -1,6 +1,8 @@
+#Пробный Вариант
 n=int(input("Сколько всего юношей/девушек?"))
 p=[str(input("Введите имя юноши: ")) for i in range(n)]
 d=[str(input("Введите имя девушки: ")) for i in range(n)]
+#Заполнение вспомогательного массива
 ind=[]
 for i in range(n):
     ind.append(i)
